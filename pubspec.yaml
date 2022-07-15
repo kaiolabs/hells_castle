@@ -1,0 +1,63 @@
+name: hells_castle
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.2
+  bonfire: ^2.5.0
+  flame_audio: ^1.0.2
+  flame_splash_screen: ^0.1.0
+  http: ^0.13.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+# The following section is specific to Flutter packages.
+flutter:
+
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/
+    # - assets/audio/
+    - assets/images/
+    - assets/images/npc/
+    - assets/images/emote/
+    - assets/images/items/
+    - assets/images/player/
+    - assets/images/attacks/
+    - assets/images/enemies/
+    - assets/images/enemies/imp/
+    - assets/images/enemies/orc1/
+    - assets/images/enemies/orc2/
+    - assets/images/enemies/orc3/
+    - assets/images/enemies/boss/
+    - assets/images/enemies/slime/
+    - assets/images/enemies/goblin/
+    - assets/images/enemies/king_orc/
+    - assets/images/enemies/baby_leaf/
+    - assets/images/enemies/king_leaf/
+    - assets/images/enemies/king_ghost/
+    - assets/images/enemies/king_wizard/
+    - assets/images/home_hellscastle.png
+
+  fonts:
+   - family: Normal
+     fonts:
+       - asset: fonts/font_pixel.ttf
